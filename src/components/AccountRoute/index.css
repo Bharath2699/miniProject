@@ -1,0 +1,158 @@
+.account-container {
+  width: 100vw;
+  height: 100vh;
+}
+@media (max-width: 768px) {
+  .account-container {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+.details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 75px;
+}
+@media (max-width: 768px) {
+  .details-container {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+.account-heading {
+  color: #131313;
+  font-size: 36px;
+  font-weight: 700;
+}
+@media (max-width: 768px) {
+  .account-heading {
+    font-size: 24px;
+    font-weight: 500;
+  }
+}
+.mail {
+  color: #1e293b;
+  font-size: 24px;
+}
+@media (max-width: 768px) {
+  .mail {
+    font-size: 16px;
+  }
+}
+.account-details {
+  display: flex;
+}
+
+.membership {
+  color: #94a3b8;
+  font-size: 24px;
+  font-weight: 600px;
+}
+@media (max-width: 768px) {
+  .membership {
+    font-size: 22px;
+    font-weight: 600px;
+  }
+}
+.mail-password {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+@media (max-width: 768px) {
+  .mail-password {
+    margin-left: 20px;
+  }
+}
+.plans {
+  display: flex;
+}
+.plan-details {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+@media (max-width: 768px) {
+  .plan-details {
+    margin-left: 20px;
+  }
+}
+.premium {
+  color: #1e293b;
+  font-size: 24px;
+  margin-right: 20px;
+}
+@media (max-width: 768px) {
+  .premium {
+    font-size: 16px;
+  }
+}
+.hd {
+  color: #1e293b;
+  font-size: 18px;
+  height: 30px;
+  width: 101px;
+  border-color: #1e293b;
+  border-style: solid;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .hd {
+    font-size: 16px;
+  }
+}
+.logout-button {
+  width: 100px;
+  height: 35px;
+  align-self: center;
+  border-radius: 4px;
+  gap: 10px;
+  background-color: #e50914;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+@media (max-width: 768px) {
+  .logout-button {
+    align-self: center;
+  }
+}
+.line {
+  border-style: solid;
+  border-color: #cbd5e1;
+  border-width: 2px;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .line {
+    width: 100%;
+  }
+}
+.header-card {
+  background-color: #131313;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.details-card {
+  height: 60%;
+  background-color: #ffffff;
+}
+@media (max-width: 768px) {
+  .details-card {
+    height: 65%;
+    width: 100%;
+  }
+}
+.footer-account-card {
+  background-color: #181818;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

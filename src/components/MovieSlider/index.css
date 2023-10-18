@@ -1,0 +1,12 @@
+.slider-container {
+  height: 180px;
+  width: 85%;
+  background-color: transparent;
+}
+@media (max-width: 768px) {
+  .slider-container {
+    height: 65px;
+    width: 90%;
+    background-color: transparent;
+  }
+}

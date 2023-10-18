@@ -1,0 +1,25 @@
+.search-container {
+  height: 100vh;
+  width: 100vw;
+  overflow: auto;
+  background-color: #1d0300;
+  display: flex;
+  flex-direction: column;
+}
+.search-results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin: auto;
+}
+.initial-container {
+  background-color: transparent;
+}
+.search-button {
+  outline: none;
+  border-width: 0px;
+  background-color: transparent;
+  color: #ffffff;
+  font-weight: 900;
+}

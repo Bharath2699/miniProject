@@ -1,0 +1,23 @@
+.popular-container {
+  height: 100vh;
+  width: 100vw;
+  overflow: auto;
+  background-color: black;
+}
+.popularMovies-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 160px;
+  height: 90%;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .popular-container {
+    height: 100vw;
+    height: 100vh;
+    overflow: auto;
+  }
+  .popularMovies-list {
+    padding-left: 37px;
+  }
+}
